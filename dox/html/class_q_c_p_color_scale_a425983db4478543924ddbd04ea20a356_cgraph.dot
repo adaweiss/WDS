@@ -1,0 +1,23 @@
+digraph "QCPColorScale::rescaleDataRange"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPColorScale::rescaleData\lRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPColorScale::colorMaps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_color_scale.html#a01bb96981614f2556ef7da04531a7a05"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::plottableCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a2dbfbf15dc38713f9a1c445a3dd2e989"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::plottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a32de81ff53e263e785b83b52ecd99d6f"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPRange::expand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#a0fa1bc8048be50d52bea93a8caf08305"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPRange::validRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#ab38bd4841c77c7bb86c9eea0f142dcc0"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#afa57c13049b965edb6fd1c00ac56338a"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPColorScale::setDataRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_color_scale.html#abe88633003a26d1e756aa74984587fef"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPColorScale::dataRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_color_scale.html#a52134696d5e04074fff4227d92d96f7b"];
+}

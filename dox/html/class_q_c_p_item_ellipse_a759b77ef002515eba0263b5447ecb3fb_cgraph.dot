@@ -1,0 +1,27 @@
+digraph "QCPItemEllipse::QCPItemEllipse"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPItemEllipse::QCPItemEllipse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPItemPosition::setCoords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_position.html#aa988ba4e87ab684c9021017dcaba945f"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPItemPosition::key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_position.html#ac3cb2bddf5f89e5181830be30b93d090"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPItemPosition::value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_position.html#a6817f7356d3a2b63e8446c6b6106dae1"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPItemEllipse::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_ellipse.html#adb81a663ed2420fcfa011e49f678d1a6"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPItemEllipse::pen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_ellipse.html#adb67471eabaf1214c99767f1653ca0ed"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPItemEllipse::setSelectedPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_ellipse.html#a6c542fba1dc918041c583f58a50dde99"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPItemEllipse::setBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_ellipse.html#a49fc74e6965834e873d027d026def798"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPItemEllipse::brush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_ellipse.html#ac012e4fd59fdb1afb6554937bae8f7e1"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPItemEllipse::setSelected\lBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_ellipse.html#a9693501cfaa43a099655c75bed0dab3f"];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

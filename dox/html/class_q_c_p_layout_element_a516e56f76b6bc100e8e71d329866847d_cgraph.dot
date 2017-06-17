@@ -1,0 +1,13 @@
+digraph "QCPLayoutElement::setMarginGroup"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPLayoutElement::setMargin\lGroup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayoutElement::margin\lGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layout_element.html#a22cb1bb62c452fd802e43ca2524660db"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPMarginGroup::removeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_margin_group.html#a20ab3286062957d99b58db683fe725b0"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPMarginGroup::addChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_margin_group.html#acb9c3a35acec655c2895b7eb95ee0524"];
+}

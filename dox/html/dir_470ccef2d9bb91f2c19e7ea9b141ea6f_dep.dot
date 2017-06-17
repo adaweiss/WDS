@@ -1,0 +1,11 @@
+digraph "/home/ad/wds/prj/out/moc" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_437544eb6efc164e06ce23a354a877af {
+    graph [ bgcolor="#ddddee", pencolor="black", label="out" fontname="Helvetica", fontsize="10", URL="dir_437544eb6efc164e06ce23a354a877af.html"]
+  dir_470ccef2d9bb91f2c19e7ea9b141ea6f [shape=box, label="moc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_470ccef2d9bb91f2c19e7ea9b141ea6f.html"];
+  }
+  dir_72345776cd6700fb0dedb8f1faaa0c00 [shape=box label="inc" fillcolor="white" style="filled" color="red" URL="dir_72345776cd6700fb0dedb8f1faaa0c00.html"];
+  dir_470ccef2d9bb91f2c19e7ea9b141ea6f->dir_72345776cd6700fb0dedb8f1faaa0c00 [headlabel="1", labeldistance=1.5 headhref="dir_000005_000001.html"];
+}

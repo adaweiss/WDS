@@ -1,0 +1,85 @@
+\hypertarget{class_czujniki}{}\section{Czujniki Class Reference}
+\label{class_czujniki}\index{Czujniki@{Czujniki}}
+
+
+Widget do rysowania czujników linii.  
+
+
+
+
+{\ttfamily \#include $<$czujniki.\+hh$>$}
+
+
+
+Inheritance diagram for Czujniki\+:
+% FIG 0
+
+
+Collaboration diagram for Czujniki\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_czujniki_a1b3e6e1807e19db4bca1a7c5f86bb30d}{Czujniki} (Q\+Widget $\ast$parent)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy czujniki. \end{DoxyCompactList}\item 
+void \hyperlink{class_czujniki_a3bb54c1cca3ba30b92143129f38637e9}{paint\+Event} (Q\+Paint\+Event $\ast$p\+Event)
+\begin{DoxyCompactList}\small\item\em Metoda do odrysowywania czujników. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Widget do rysowania czujników linii. 
+
+Definition at line 18 of file czujniki.\+hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Czujniki@{Czujniki}!Czujniki@{Czujniki}}
+\index{Czujniki@{Czujniki}!Czujniki@{Czujniki}}
+\subsubsection[{\texorpdfstring{Czujniki(\+Q\+Widget $\ast$parent)}{Czujniki(QWidget *parent)}}]{\setlength{\rightskip}{0pt plus 5cm}Czujniki\+::\+Czujniki (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent}
+\end{DoxyParamCaption}
+)}\hypertarget{class_czujniki_a1b3e6e1807e19db4bca1a7c5f86bb30d}{}\label{class_czujniki_a1b3e6e1807e19db4bca1a7c5f86bb30d}
+
+
+Konstruktor klasy czujniki. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & -\/ wskażnik na rodzica \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 12 of file czujniki.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Czujniki@{Czujniki}!paint\+Event@{paint\+Event}}
+\index{paint\+Event@{paint\+Event}!Czujniki@{Czujniki}}
+\subsubsection[{\texorpdfstring{paint\+Event(\+Q\+Paint\+Event $\ast$p\+Event)}{paintEvent(QPaintEvent *pEvent)}}]{\setlength{\rightskip}{0pt plus 5cm}void Czujniki\+::paint\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Paint\+Event $\ast$}]{p\+Event}
+\end{DoxyParamCaption}
+)}\hypertarget{class_czujniki_a3bb54c1cca3ba30b92143129f38637e9}{}\label{class_czujniki_a3bb54c1cca3ba30b92143129f38637e9}
+
+
+Metoda do odrysowywania czujników. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Event} & -\/ paint event \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file czujniki.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ad/wds/prj/inc/czujniki.\+hh\item 
+/home/ad/wds/prj/src/czujniki.\+cpp\end{DoxyCompactItemize}

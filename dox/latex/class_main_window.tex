@@ -1,0 +1,314 @@
+\hypertarget{class_main_window}{}\section{Main\+Window Class Reference}
+\label{class_main_window}\index{Main\+Window@{Main\+Window}}
+
+
+Okno główne programu.  
+
+
+
+
+{\ttfamily \#include $<$mainwindow.\+h$>$}
+
+Inheritance diagram for Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_main_window}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_main_window_ab27297114529e4c16d6d8d7a54927a0e}{refresh} ()
+\begin{DoxyCompactList}\small\item\em Public slot aktualizujący dane. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_af7a712e76f56484c9e364f49279a646d}{on\+\_\+p\+\_\+bar\+\_\+enc2\+\_\+value\+Changed} (const int \&value)
+\begin{DoxyCompactList}\small\item\em Slot ustawiający wartość prędkości na słupku dla encodera prawego. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a8e2c589784d7a28d72386d23bd51b683}{on\+\_\+p\+\_\+bar\+\_\+enc1\+\_\+value\+Changed} (const int \&value)
+\begin{DoxyCompactList}\small\item\em Slot ustawiający wartość prędkości na słupku dla encodera lewego. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a78f945084286506a64269d4ee75db224}{info} ()
+\begin{DoxyCompactList}\small\item\em Wyświetlanie okna \hyperlink{class_info}{Info}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\+Window} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Konstruktor okna głównego. \end{DoxyCompactList}\item 
+\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{$\sim$\+Main\+Window} ()
+\begin{DoxyCompactList}\small\item\em Destruktor okna glównego. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a78eb93451b676752f966dc2f45c7a2a1}{set\+Desk} (const int \&\+\_\+deskportu)
+\begin{DoxyCompactList}\small\item\em Ustawia desk\+\_\+portu. \end{DoxyCompactList}\item 
+int \hyperlink{class_main_window_ad000e48bacc14dccf59231bb30b046ac}{desk} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwraca desk\+\_\+portu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_main_window_a2646490b51f2dc402814167e5bd0dae7}{on\+\_\+clear\+\_\+button\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em Slot aktywowany za pomocą przycisku C\+L\+E\+AN. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a0a3e23defe2393514e469e45aa13b756}{on\+\_\+start\+\_\+button\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em Slot aktywowany przyciskiem S\+T\+A\+RT. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a432e89bd5ab9691e8fc3ba91a9b9129a}{on\+\_\+stop\+\_\+button\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em Slot aktywowany przyciskiem S\+T\+OP. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_main_window_a408ca1239ef6ff692b8d4b9b7bd3c7db}{cz} =0
+\item 
+int \hyperlink{class_main_window_a227a342bafd8ac62990190f15bdabdb3}{desk\+\_\+portu}
+\item 
+bool \hyperlink{class_main_window_a2d263bf60dff7452a4fabba4f1ef47dc}{start\+\_\+flag} =false
+\item 
+Ui\+::\+Main\+Window $\ast$ \hyperlink{class_main_window_a35466a70ed47252a0191168126a352a5}{ui}
+\item 
+Q\+Timer $\ast$ \hyperlink{class_main_window_a356578805ed1248a7f2807434cb0e5ee}{timer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Okno główne programu. 
+
+Definition at line 23 of file mainwindow.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Main\+Window@{Main\+Window}!Main\+Window@{Main\+Window}}
+\index{Main\+Window@{Main\+Window}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{Main\+Window(\+Q\+Widget $\ast$parent=0)}{MainWindow(QWidget *parent=0)}}]{\setlength{\rightskip}{0pt plus 5cm}Main\+Window\+::\+Main\+Window (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}\hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}
+
+
+Konstruktor okna głównego. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & -\/ wskaźnik na rodzica \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 27 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!````~Main\+Window@{$\sim$\+Main\+Window}}
+\index{````~Main\+Window@{$\sim$\+Main\+Window}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{$\sim$\+Main\+Window()}{~MainWindow()}}]{\setlength{\rightskip}{0pt plus 5cm}Main\+Window\+::$\sim$\+Main\+Window (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{}\label{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}
+
+
+Destruktor okna glównego. 
+
+
+
+Definition at line 46 of file mainwindow.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Main\+Window@{Main\+Window}!desk@{desk}}
+\index{desk@{desk}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{desk()}{desk()}}]{\setlength{\rightskip}{0pt plus 5cm}int Main\+Window\+::desk (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_main_window_ad000e48bacc14dccf59231bb30b046ac}{}\label{class_main_window_ad000e48bacc14dccf59231bb30b046ac}
+
+
+Metoda zwraca desk\+\_\+portu. 
+
+\begin{DoxyReturn}{Returns}
+desk\+\_\+portu 
+\end{DoxyReturn}
+
+
+Definition at line 40 of file mainwindow.\+h.
+
+\index{Main\+Window@{Main\+Window}!info@{info}}
+\index{info@{info}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{info}{info}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_main_window_a78f945084286506a64269d4ee75db224}{}\label{class_main_window_a78f945084286506a64269d4ee75db224}
+
+
+Wyświetlanie okna \hyperlink{class_info}{Info}. 
+
+Slot połaczony z sygnalem od Mouse\+Event widgetu \hyperlink{class_trasa}{Trasa}.
+
+Slot który powoduje wyświetlenie okna z informacjami w danym punkcie trasy. Jest aktywowany za pomocą sygnału mouse\+Pressed(); 
+
+Definition at line 108 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!on\+\_\+clear\+\_\+button\+\_\+clicked@{on\+\_\+clear\+\_\+button\+\_\+clicked}}
+\index{on\+\_\+clear\+\_\+button\+\_\+clicked@{on\+\_\+clear\+\_\+button\+\_\+clicked}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{on\+\_\+clear\+\_\+button\+\_\+clicked}{on_clear_button_clicked}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::on\+\_\+clear\+\_\+button\+\_\+clicked (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}\hypertarget{class_main_window_a2646490b51f2dc402814167e5bd0dae7}{}\label{class_main_window_a2646490b51f2dc402814167e5bd0dae7}
+
+
+Slot aktywowany za pomocą przycisku C\+L\+E\+AN. 
+
+Slot połaczony z wciśnięciem przycisku C\+L\+E\+AR Wyczyszczenie danych znajdujących się w wektorach.
+
+Usuwa przechowywane dane. Aktualizuje również wygląd okna. 
+
+Definition at line 119 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!on\+\_\+p\+\_\+bar\+\_\+enc1\+\_\+value\+Changed@{on\+\_\+p\+\_\+bar\+\_\+enc1\+\_\+value\+Changed}}
+\index{on\+\_\+p\+\_\+bar\+\_\+enc1\+\_\+value\+Changed@{on\+\_\+p\+\_\+bar\+\_\+enc1\+\_\+value\+Changed}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{on\+\_\+p\+\_\+bar\+\_\+enc1\+\_\+value\+Changed}{on_p_bar_enc1_valueChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::on\+\_\+p\+\_\+bar\+\_\+enc1\+\_\+value\+Changed (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_main_window_a8e2c589784d7a28d72386d23bd51b683}{}\label{class_main_window_a8e2c589784d7a28d72386d23bd51b683}
+
+
+Slot ustawiający wartość prędkości na słupku dla encodera lewego. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & -\/ wczytana prędkość \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 99 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!on\+\_\+p\+\_\+bar\+\_\+enc2\+\_\+value\+Changed@{on\+\_\+p\+\_\+bar\+\_\+enc2\+\_\+value\+Changed}}
+\index{on\+\_\+p\+\_\+bar\+\_\+enc2\+\_\+value\+Changed@{on\+\_\+p\+\_\+bar\+\_\+enc2\+\_\+value\+Changed}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{on\+\_\+p\+\_\+bar\+\_\+enc2\+\_\+value\+Changed}{on_p_bar_enc2_valueChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::on\+\_\+p\+\_\+bar\+\_\+enc2\+\_\+value\+Changed (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_main_window_af7a712e76f56484c9e364f49279a646d}{}\label{class_main_window_af7a712e76f56484c9e364f49279a646d}
+
+
+Slot ustawiający wartość prędkości na słupku dla encodera prawego. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & -\/ wczytana prędkość \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!on\+\_\+start\+\_\+button\+\_\+clicked@{on\+\_\+start\+\_\+button\+\_\+clicked}}
+\index{on\+\_\+start\+\_\+button\+\_\+clicked@{on\+\_\+start\+\_\+button\+\_\+clicked}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{on\+\_\+start\+\_\+button\+\_\+clicked}{on_start_button_clicked}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::on\+\_\+start\+\_\+button\+\_\+clicked (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}\hypertarget{class_main_window_a0a3e23defe2393514e469e45aa13b756}{}\label{class_main_window_a0a3e23defe2393514e469e45aa13b756}
+
+
+Slot aktywowany przyciskiem S\+T\+A\+RT. 
+
+Slot połaczony z wciśnięciem przycisku S\+T\+A\+RT. Uruchomienie czytania z portu U\+S\+B0 i ustawienie parametrów transmisji. Ustawienie odpowiednich ikon aktywnych.
+
+Otwiera port szeregowy. Ustawia odpowiednie przyciski jako aktywne. Uruchamia timer 
+
+Definition at line 131 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!on\+\_\+stop\+\_\+button\+\_\+clicked@{on\+\_\+stop\+\_\+button\+\_\+clicked}}
+\index{on\+\_\+stop\+\_\+button\+\_\+clicked@{on\+\_\+stop\+\_\+button\+\_\+clicked}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{on\+\_\+stop\+\_\+button\+\_\+clicked}{on_stop_button_clicked}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::on\+\_\+stop\+\_\+button\+\_\+clicked (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}\hypertarget{class_main_window_a432e89bd5ab9691e8fc3ba91a9b9129a}{}\label{class_main_window_a432e89bd5ab9691e8fc3ba91a9b9129a}
+
+
+Slot aktywowany przyciskiem S\+T\+OP. 
+
+Slot połaczony z wciśnięciem przycisku S\+T\+OP Ustawienie odpowiednich ikon. Zatrzymanie timera.
+
+Ustawia odpowiednie przyciski jako aktywne. Zatrzymuje timer 
+
+Definition at line 151 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!refresh@{refresh}}
+\index{refresh@{refresh}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{refresh}{refresh}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::refresh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_main_window_ab27297114529e4c16d6d8d7a54927a0e}{}\label{class_main_window_ab27297114529e4c16d6d8d7a54927a0e}
+
+
+Public slot aktualizujący dane. 
+
+Aktualizacja danych oraz okna głownego wywołana sygnałem z timera. Odbywa się co 50 ms. 
+
+Definition at line 59 of file mainwindow.\+cpp.
+
+\index{Main\+Window@{Main\+Window}!set\+Desk@{set\+Desk}}
+\index{set\+Desk@{set\+Desk}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{set\+Desk(const int \&\+\_\+deskportu)}{setDesk(const int &_deskportu)}}]{\setlength{\rightskip}{0pt plus 5cm}void Main\+Window\+::set\+Desk (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{\+\_\+deskportu}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_main_window_a78eb93451b676752f966dc2f45c7a2a1}{}\label{class_main_window_a78eb93451b676752f966dc2f45c7a2a1}
+
+
+Ustawia desk\+\_\+portu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+deskportu} & -\/ desk otwartego portu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file mainwindow.\+h.
+
+
+
+\subsection{Member Data Documentation}
+\index{Main\+Window@{Main\+Window}!cz@{cz}}
+\index{cz@{cz}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{cz}{cz}}]{\setlength{\rightskip}{0pt plus 5cm}float Main\+Window\+::cz =0\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_main_window_a408ca1239ef6ff692b8d4b9b7bd3c7db}{}\label{class_main_window_a408ca1239ef6ff692b8d4b9b7bd3c7db}
+czas w s od rozpoczecia pomiaru 
+
+Definition at line 95 of file mainwindow.\+h.
+
+\index{Main\+Window@{Main\+Window}!desk\+\_\+portu@{desk\+\_\+portu}}
+\index{desk\+\_\+portu@{desk\+\_\+portu}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{desk\+\_\+portu}{desk_portu}}]{\setlength{\rightskip}{0pt plus 5cm}int Main\+Window\+::desk\+\_\+portu\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_main_window_a227a342bafd8ac62990190f15bdabdb3}{}\label{class_main_window_a227a342bafd8ac62990190f15bdabdb3}
+desk otwieranego w konstruktorze portu 
+
+Definition at line 97 of file mainwindow.\+h.
+
+\index{Main\+Window@{Main\+Window}!start\+\_\+flag@{start\+\_\+flag}}
+\index{start\+\_\+flag@{start\+\_\+flag}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{start\+\_\+flag}{start_flag}}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\+Window\+::start\+\_\+flag =false\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_main_window_a2d263bf60dff7452a4fabba4f1ef47dc}{}\label{class_main_window_a2d263bf60dff7452a4fabba4f1ef47dc}
+flaga ustawiana przez nacisniecie startu 
+
+Definition at line 99 of file mainwindow.\+h.
+
+\index{Main\+Window@{Main\+Window}!timer@{timer}}
+\index{timer@{timer}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{timer}{timer}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Timer$\ast$ Main\+Window\+::timer\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_main_window_a356578805ed1248a7f2807434cb0e5ee}{}\label{class_main_window_a356578805ed1248a7f2807434cb0e5ee}
+timer wyzwalajacy odczytywanie nowych danych 
+
+Definition at line 103 of file mainwindow.\+h.
+
+\index{Main\+Window@{Main\+Window}!ui@{ui}}
+\index{ui@{ui}!Main\+Window@{Main\+Window}}
+\subsubsection[{\texorpdfstring{ui}{ui}}]{\setlength{\rightskip}{0pt plus 5cm}Ui\+::\+Main\+Window$\ast$ Main\+Window\+::ui\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_main_window_a35466a70ed47252a0191168126a352a5}{}\label{class_main_window_a35466a70ed47252a0191168126a352a5}
+interfejs graficzny 
+
+Definition at line 101 of file mainwindow.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ad/wds/prj/inc/\hyperlink{mainwindow_8h}{mainwindow.\+h}\item 
+/home/ad/wds/prj/src/\hyperlink{mainwindow_8cpp}{mainwindow.\+cpp}\end{DoxyCompactItemize}

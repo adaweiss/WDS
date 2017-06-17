@@ -1,0 +1,21 @@
+digraph "QCustomPlot::item"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCustomPlot::item",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCustomPlot::addItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#aa500620379262321685cb7a7674cbd2a"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::removeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#ae04446557292551e8fb6e2c106e1848d"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::removeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#abcfdda3d601c0441cab136137d715dea"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCustomPlot::clearItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#abdfd07d4f0591d0cf967f85013fd3645"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCustomPlot::~QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a75d9b6f599dcae706e45efd425c5499e"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCustomPlot::selectedItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a1a48b13547e2d9ac5cd6927516f47a2e"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCustomPlot::itemAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a793e4b04e0ede11a733021907368fa83"];
+}

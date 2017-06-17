@@ -1,0 +1,16 @@
+digraph "QCPItemPixmap::getFinalRect"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPItemPixmap::getFinalRect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPItemPixmap::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_pixmap.html#a9f8436aa141fa0fb504191c882c2f4d9"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPItemPixmap::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_pixmap.html#a879e8076c2db01a38b34cfa73ec95d2f"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPItemPixmap::anchorPixel\lPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_pixmap.html#a88abce3c1027f371cddcf6dad35ffbb1"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPItemPixmap::updateScaled\lPixmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_item_pixmap.html#a8bced3027b326b290726cd1979c7cfc6"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

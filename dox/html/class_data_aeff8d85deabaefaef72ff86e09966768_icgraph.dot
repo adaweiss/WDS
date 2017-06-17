@@ -1,0 +1,15 @@
+digraph "Data::foto2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Data::foto2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Czujniki::paintEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_czujniki.html#a3bb54c1cca3ba30b92143129f38637e9",tooltip="Czujniki::paintEvent rysuje na widgecie kółka odpowiadające kolejnym czujnikom linii. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Info::showText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_info.html#ae90eb729d49b714feb2030e53a034269"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainWindow::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_window.html#a78f945084286506a64269d4ee75db224",tooltip="MainWindow::info - slot połaczony z sygnalem od MouseEvent widgetu trasa, wyswietla okienko dodatkowe..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainWindow::MainWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_window.html#a8b244be8b7b7db1b08de2a2acb9409db",tooltip="MainWindow::MainWindow - konstruktor okna głównego. "];
+}

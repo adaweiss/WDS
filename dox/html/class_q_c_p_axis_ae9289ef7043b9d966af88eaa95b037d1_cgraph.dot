@@ -1,0 +1,19 @@
+digraph "QCPAxis::pixelToCoord"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxis::pixelToCoord",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxis::orientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis.html#a57483f2f60145ddc9e63f3af53959265"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisRect::left",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_rect.html#a55b3ecf72a3a65b053f7651b88db458d"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisRect::width",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_rect.html#a45bf5c17f4ca29131b7eb0db06efc259"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#afa57c13049b965edb6fd1c00ac56338a"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAxisRect::bottom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_rect.html#af2b5982ebe7e6f781b9bf1cc371a60d8"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAxisRect::height",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_rect.html#a1c55c4f3bef40cf01b21820316c8469e"];
+}

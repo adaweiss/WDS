@@ -1,0 +1,209 @@
+\hypertarget{class_trasa}{}\section{Trasa Class Reference}
+\label{class_trasa}\index{Trasa@{Trasa}}
+
+
+Widget rysujący trasę linefollowera.  
+
+
+
+
+{\ttfamily \#include $<$trasa.\+hh$>$}
+
+Inheritance diagram for Trasa\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_trasa}
+\end{center}
+\end{figure}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_trasa_afe90b2b84a730591d1352ccc8e799627}{mouse\+Pressed} ()
+\begin{DoxyCompactList}\small\item\em Sygnał emitowany w momencie nacisniecia myszki na widgecie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_trasa_a00694745a2bbcf0b6c449450073406ff}{Trasa} (Q\+Widget $\ast$parent)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \hyperlink{class_trasa}{Trasa}. \end{DoxyCompactList}\item 
+const int \hyperlink{class_trasa_ad1cecf9d36222a654d3b2f10d76dd1c3}{ind} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwraca index pomiaru w pobliżu ostatnio kliknięto. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_trasa_a369eb849159b2673663784bab2655964}{paint\+Event} (Q\+Paint\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Odrysowywanie trasy wywoływane za pomoca update() \end{DoxyCompactList}\item 
+void \hyperlink{class_trasa_abd50f0fb27911e6f85b2654de5ec68b5}{set\+\_\+scale} (int \+\_\+scale)
+\begin{DoxyCompactList}\small\item\em Ustawia skale rysunku. \end{DoxyCompactList}\item 
+void \hyperlink{class_trasa_a848df9d4b50d279f304a6a19411ab9ba}{mouse\+Press\+Event} (Q\+Mouse\+Event $\ast$e)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca klikniecie myszka na widget. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_trasa_a4bc5fca0e6c9e2d18cfbd7b0ee0a6c47}{scale}
+\item 
+Q\+Vector$<$ double $>$ \hyperlink{class_trasa_a41a6b053dd05d57c1ca3e0c1c26bd504}{qv\+\_\+x}
+\item 
+Q\+Vector$<$ double $>$ \hyperlink{class_trasa_a232930dbf4c8396b9251c258813fa0c1}{qv\+\_\+y}
+\item 
+int \hyperlink{class_trasa_adc9ed75ed0b4a2669128ef2d7ffaf150}{index} =2000000
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Widget rysujący trasę linefollowera. 
+
+Definition at line 21 of file trasa.\+hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Trasa@{Trasa}!Trasa@{Trasa}}
+\index{Trasa@{Trasa}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{Trasa(\+Q\+Widget $\ast$parent)}{Trasa(QWidget *parent)}}]{\setlength{\rightskip}{0pt plus 5cm}Trasa\+::\+Trasa (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent}
+\end{DoxyParamCaption}
+)}\hypertarget{class_trasa_a00694745a2bbcf0b6c449450073406ff}{}\label{class_trasa_a00694745a2bbcf0b6c449450073406ff}
+
+
+Konstruktor klasy \hyperlink{class_trasa}{Trasa}. 
+
+Inicjalizuje tło, wypełnia je na białym kolorem.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & -\/ wskaźnik na rodzica \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file trasa.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Trasa@{Trasa}!ind@{ind}}
+\index{ind@{ind}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{ind()}{ind()}}]{\setlength{\rightskip}{0pt plus 5cm}const int Trasa\+::ind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_trasa_ad1cecf9d36222a654d3b2f10d76dd1c3}{}\label{class_trasa_ad1cecf9d36222a654d3b2f10d76dd1c3}
+
+
+Metoda zwraca index pomiaru w pobliżu ostatnio kliknięto. 
+
+\begin{DoxyReturn}{Returns}
+index danych w wektorach 
+\end{DoxyReturn}
+
+
+Definition at line 34 of file trasa.\+hh.
+
+\index{Trasa@{Trasa}!mouse\+Pressed@{mouse\+Pressed}}
+\index{mouse\+Pressed@{mouse\+Pressed}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{mouse\+Pressed}{mousePressed}}]{\setlength{\rightskip}{0pt plus 5cm}void Trasa\+::mouse\+Pressed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_trasa_afe90b2b84a730591d1352ccc8e799627}{}\label{class_trasa_afe90b2b84a730591d1352ccc8e799627}
+
+
+Sygnał emitowany w momencie nacisniecia myszki na widgecie. 
+
+\index{Trasa@{Trasa}!mouse\+Press\+Event@{mouse\+Press\+Event}}
+\index{mouse\+Press\+Event@{mouse\+Press\+Event}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{mouse\+Press\+Event(\+Q\+Mouse\+Event $\ast$e)}{mousePressEvent(QMouseEvent *e)}}]{\setlength{\rightskip}{0pt plus 5cm}void Trasa\+::mouse\+Press\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Mouse\+Event $\ast$}]{ev}
+\end{DoxyParamCaption}
+)}\hypertarget{class_trasa_a848df9d4b50d279f304a6a19411ab9ba}{}\label{class_trasa_a848df9d4b50d279f304a6a19411ab9ba}
+
+
+Metoda obsługująca klikniecie myszka na widget. 
+
+Sprawdza dane dla punktu położonego w odpowiedniu małej odległości od miejsca, w którym kliknięto myszką. 
+\begin{DoxyParams}{Parameters}
+{\em ev} & -\/ Mouse\+Event zawiera dane o miejscu klikniecia myszka \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 66 of file trasa.\+cpp.
+
+\index{Trasa@{Trasa}!paint\+Event@{paint\+Event}}
+\index{paint\+Event@{paint\+Event}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{paint\+Event(\+Q\+Paint\+Event $\ast$event)}{paintEvent(QPaintEvent *event)}}]{\setlength{\rightskip}{0pt plus 5cm}void Trasa\+::paint\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Paint\+Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_trasa_a369eb849159b2673663784bab2655964}{}\label{class_trasa_a369eb849159b2673663784bab2655964}
+
+
+Odrysowywanie trasy wywoływane za pomoca update() 
+
+Kolejne miejsca rysowane są jako punkty, a aktualne położenie jet rysowane na czerwono. Wykorzystuje ustawioną skalę.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file trasa.\+cpp.
+
+\index{Trasa@{Trasa}!set\+\_\+scale@{set\+\_\+scale}}
+\index{set\+\_\+scale@{set\+\_\+scale}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{set\+\_\+scale(int \+\_\+scale)}{set_scale(int _scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Trasa\+::set\+\_\+scale (
+\begin{DoxyParamCaption}
+\item[{int}]{\+\_\+scale}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_trasa_abd50f0fb27911e6f85b2654de5ec68b5}{}\label{class_trasa_abd50f0fb27911e6f85b2654de5ec68b5}
+
+
+Ustawia skale rysunku. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+scale} & -\/ parametr oczytany ze slidera w mainwindow \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file trasa.\+hh.
+
+
+
+\subsection{Member Data Documentation}
+\index{Trasa@{Trasa}!index@{index}}
+\index{index@{index}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{index}{index}}]{\setlength{\rightskip}{0pt plus 5cm}int Trasa\+::index =2000000\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_trasa_adc9ed75ed0b4a2669128ef2d7ffaf150}{}\label{class_trasa_adc9ed75ed0b4a2669128ef2d7ffaf150}
+
+
+Definition at line 58 of file trasa.\+hh.
+
+\index{Trasa@{Trasa}!qv\+\_\+x@{qv\+\_\+x}}
+\index{qv\+\_\+x@{qv\+\_\+x}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{qv\+\_\+x}{qv_x}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$double$>$ Trasa\+::qv\+\_\+x\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_trasa_a41a6b053dd05d57c1ca3e0c1c26bd504}{}\label{class_trasa_a41a6b053dd05d57c1ca3e0c1c26bd504}
+wektor przechowujący położenie punktów (wspolrzednej x) na widgecie 
+
+Definition at line 56 of file trasa.\+hh.
+
+\index{Trasa@{Trasa}!qv\+\_\+y@{qv\+\_\+y}}
+\index{qv\+\_\+y@{qv\+\_\+y}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{qv\+\_\+y}{qv_y}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$double$>$ Trasa\+::qv\+\_\+y\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_trasa_a232930dbf4c8396b9251c258813fa0c1}{}\label{class_trasa_a232930dbf4c8396b9251c258813fa0c1}
+wektor przechowujący położenie punktów (wspolrzednej y) na widgecie 
+
+Definition at line 57 of file trasa.\+hh.
+
+\index{Trasa@{Trasa}!scale@{scale}}
+\index{scale@{scale}!Trasa@{Trasa}}
+\subsubsection[{\texorpdfstring{scale}{scale}}]{\setlength{\rightskip}{0pt plus 5cm}double Trasa\+::scale\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_trasa_a4bc5fca0e6c9e2d18cfbd7b0ee0a6c47}{}\label{class_trasa_a4bc5fca0e6c9e2d18cfbd7b0ee0a6c47}
+skala rysunku 
+
+Definition at line 55 of file trasa.\+hh.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ad/wds/prj/inc/\hyperlink{trasa_8hh}{trasa.\+hh}\item 
+/home/ad/wds/prj/src/\hyperlink{trasa_8cpp}{trasa.\+cpp}\end{DoxyCompactItemize}

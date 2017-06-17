@@ -1,0 +1,11 @@
+digraph "/home/ad/wds/prj/src/qcustomplot" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_400757c3a0df52e783ed9699284f29ce {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_400757c3a0df52e783ed9699284f29ce.html"]
+  dir_68b32d563979c2ddcbfceb343e176bc8 [shape=box, label="qcustomplot", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_68b32d563979c2ddcbfceb343e176bc8.html"];
+  }
+  dir_72345776cd6700fb0dedb8f1faaa0c00 [shape=box label="inc" fillcolor="white" style="filled" color="red" URL="dir_72345776cd6700fb0dedb8f1faaa0c00.html"];
+  dir_68b32d563979c2ddcbfceb343e176bc8->dir_72345776cd6700fb0dedb8f1faaa0c00 [headlabel="1", labeldistance=1.5 headhref="dir_000009_000001.html"];
+}

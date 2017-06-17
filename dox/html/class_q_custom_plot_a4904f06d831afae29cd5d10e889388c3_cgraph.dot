@@ -1,0 +1,17 @@
+digraph "QCustomPlot::minimumSizeHint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCustomPlot::minimumSizeHint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayoutGrid::minimumSizeHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layout_grid.html#a67aae235fb4dd9a479aafe07462ef9ee"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayoutGrid::getMinimum\lRowColSizes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layout_grid.html#ac645fb9b1c4257b08a9f09dee10b9b3f"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLayoutGrid::columnCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layout_grid.html#ac39074eafd148b82d0762090f258189e"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLayoutGrid::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layout_grid.html#af8e6c7a05864ebe610c87756c7b9079c"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

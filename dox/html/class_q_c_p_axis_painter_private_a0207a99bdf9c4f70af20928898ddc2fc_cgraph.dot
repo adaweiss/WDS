@@ -1,0 +1,48 @@
+digraph "QCPAxisPainterPrivate::draw"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisPainterPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisPainterPrivate\l::generateLabelParameterHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_painter_private.html#a91a023bbefe1c3bf330570c0b985de84"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPainter::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPainter::makeNonCosmetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxis::orientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis.html#a57483f2f60145ddc9e63f3af53959265"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPPainter::drawLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_painter.html#a0b4b1b9bd495e182c731774dc800e6e0"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPPainter::antialiasing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_painter.html#a13370d7996315a7150be2fc868da3d4a"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPainter::setAntialiasing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_painter.html#aaba1deb9188244d9ea65b035112b4d05"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLineEnding::style",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_line_ending.html#aea324dbfddbca9895ca8a3a968671299"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPLineEnding::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_line_ending.html#ac4b2fa94bd27b2f008b5fc090fcd7c0b"];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPPainter::modes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_painter.html#a99b89eaf5363faaa1e1e6162856f436c"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPLineEnding::realLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_line_ending.html#a6a528e6dc5aabe1077a573b045715f03"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPLineEnding::inverted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_line_ending.html#aa4ffbb182cbc89fc3d92eb348630502c"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPAxisPainterPrivate\l::placeTickLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_painter_private.html#af8fe7350c19575bc33ca770f9b3a15fd"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCustomPlot::plottingHints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a130b55e205697a5288081e9fc11e443e"];
+  Node14 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QCPAxisPainterPrivate\l::getTickLabelData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_painter_private.html#ad9f24fbcbf9d8c92b34d9d00b010e6a3"];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="QCPAxisPainterPrivate\l::getTickLabelDrawOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_painter_private.html#a6b02e6fd70cc65f726ca8cb3e6f16de4"];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="QCPAxisPainterPrivate\l::drawTickLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_painter_private.html#ad8f2f12cd35b8189e8bf96679e873933"];
+  Node14 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="QCustomPlot::selectionTolerance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a7b738074c75e80070ef6a10263c6cd69"];
+}

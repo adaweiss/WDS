@@ -1,0 +1,15 @@
+digraph "QCustomPlot::selectedAxes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCustomPlot::selectedAxes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCustomPlot::axisRects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#afd67094aaeccbc5719761348b2d8c891"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayoutElement::elements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layout_element.html#a311d60d78e62ef8eaaedb1b6ceb9e788"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisRect::axes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis_rect.html#a66654d51ca611ef036ded36250cd2518"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxis::selectedParts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis.html#a08323248a1cba4750ef07ceea159e0b3"];
+}

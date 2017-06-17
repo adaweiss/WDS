@@ -1,0 +1,11 @@
+digraph "QCPAbstractPlottable::addToLegend"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAbstractPlottable\l::addToLegend",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLegend::hasItemWithPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_legend.html#a2eb1d24bdf5658e64962a656303fd61a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLegend::addItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_legend.html#a3ab274de52d2951faea45a6d975e6b3f"];
+}

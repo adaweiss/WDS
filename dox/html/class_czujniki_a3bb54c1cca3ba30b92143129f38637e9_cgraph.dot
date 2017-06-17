@@ -1,0 +1,21 @@
+digraph "Czujniki::paintEvent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Czujniki::paintEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Data::foto1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_data.html#a0264ac1cec44285442dccd223c18e039",tooltip="foto1 "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Data::foto2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_data.html#aeff8d85deabaefaef72ff86e09966768",tooltip="foto2 "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Data::foto3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_data.html#a1a80e47f3780f3a5ed6abee32d6d3b1c",tooltip="foto3 "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Data::foto4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_data.html#ae86e0496a4ae514af5f6a7c1317d2c70",tooltip="foto4 "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Data::foto5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_data.html#a236953f28ce6485de76ecc77bd988820",tooltip="foto5 "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Data::foto6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_data.html#a73b32823192c2df6e97bc319eebd6b4c",tooltip="foto6 "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Data::foto7",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_data.html#a49b89dc5597fb5c411709476833bd1e9",tooltip="foto7 "];
+}

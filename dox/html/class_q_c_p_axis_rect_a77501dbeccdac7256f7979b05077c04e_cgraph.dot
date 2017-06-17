@@ -1,0 +1,15 @@
+digraph "QCPAxisRect::mousePressEvent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisRect::mousePressEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCustomPlot::noAntialiasing\lOnDrag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#ae07f2895a34d13a97a10cae4d8e17a36"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::antialiased\lElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a81e954fbb485bb44c609e5707f0067b3"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::notAntialiased\lElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a8060cee59757213764382a78d3196189"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCustomPlot::interactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a12401c02b6949a717f5749bb28c62983"];
+}

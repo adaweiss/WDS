@@ -1,0 +1,15 @@
+digraph "QCPAbstractItem::selected"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAbstractItem::selected",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAbstractItem::setSelected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_item.html#a203de94ad586cc44d16c9565f49d3378"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAbstractItem::selectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_item.html#aaf92af7b9893712959a6c073d334d88d"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAbstractItem::deselect\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_item.html#a91f090d6763cfedb0749219c63788ae9"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCustomPlot::selectedItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a1a48b13547e2d9ac5cd6927516f47a2e"];
+}

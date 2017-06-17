@@ -1,0 +1,20 @@
+digraph "QCPAbstractItem::QCPAbstractItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAbstractItem::QCPAbstractItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCustomPlot::axisRects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#afd67094aaeccbc5719761348b2d8c891"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayoutElement::elements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layout_element.html#a311d60d78e62ef8eaaedb1b6ceb9e788"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAbstractItem::setClip\lToAxisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_item.html#a39e05b9d4176b9accafc746d16ca6a06"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLayerable::setParentLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layerable.html#aa23c893671f1f6744ac235cf2204cf3a"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLayerable::parentLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layerable.html#a98d79f5b716d45eac4347befe546d0ec"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAbstractItem::setClip\lAxisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_item.html#a7dc75fcbcd10206fe0b75d757ea7a347"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,454 @@
+\hypertarget{class_data}{}\section{Data Class Reference}
+\label{class_data}\index{Data@{Data}}
+
+
+Klasa przechowuje w wektorach zmienne typu double (dla enkoderów) i bool (dla czujników linii) odpowiadające poszczególnym czujnikom oraz wektor w sec. czas w któych wykonano dany pomiar.  
+
+
+
+
+{\ttfamily \#include $<$data.\+hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_data_af11f741cb7f587e2e495452a8905a22a}{Data} ()
+\item 
+bool \hyperlink{class_data_a2e824bd41b28fb23a8b6c90b285777ca}{add\+Data} (const string \&bufor, const double \&t)
+\begin{DoxyCompactList}\small\item\em Metoda wczytująca dane z bufora odczytanego z portu szeregowego do wektorów. \end{DoxyCompactList}\item 
+bool \hyperlink{class_data_ad9b327ea613fc268b8a669b6747aa16e}{check\+Data} (const string \&bufor)
+\begin{DoxyCompactList}\small\item\em Metoda dokonuje sprawdzenia poprawnosci otrzymanej wiadomosci, długosc+suma kontrolna. \end{DoxyCompactList}\item 
+void \hyperlink{class_data_a644ad8f01a05ab5e995ebc613b2fcab9}{clear\+Data} ()
+\begin{DoxyCompactList}\small\item\em Metoda usuwa dane z wszystkich wektorów. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ double $>$ \hyperlink{class_data_a852c405041140205ba503309222aa229}{enc1} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wartościami prędkości z encodera lewego. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ double $>$ \hyperlink{class_data_acd4ce60711460e5b4507044759c0809f}{enc2} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wartościami prędkości z encodera prawego. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ bool $>$ \hyperlink{class_data_a0623960406bcd9b88cbc2272ec25e244}{foto1} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 1. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ bool $>$ \hyperlink{class_data_a5a7a46eec7a6e0e4f0b002e9a1672ddb}{foto2} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 2. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ bool $>$ \hyperlink{class_data_a52a7d60591610ce2b56f8e4245df150b}{foto3} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 3. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ bool $>$ \hyperlink{class_data_a3d816a143f8e994ffe69732c13d77c6c}{foto4} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 4. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ bool $>$ \hyperlink{class_data_a8618202cb647da7a124917ac95797e63}{foto5} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 5. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ bool $>$ \hyperlink{class_data_a1c5c32ab81b669a34b8aa494debe0ec9}{foto6} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 6. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ bool $>$ \hyperlink{class_data_abf339451d0518296a832e91021cbeff6}{foto7} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 7. \end{DoxyCompactList}\item 
+const Q\+Vector$<$ double $>$ \hyperlink{class_data_a709a752b98cd4784c414b99e9ead0e8c}{timeval} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracająca wektor z chwilami czasowymi w których nastapiły pomiary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Vector$<$ double $>$ \hyperlink{class_data_a7229f0da78654f3122d63a7b2bf993c8}{qv\+\_\+enc1}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy wartoscii predkosci wyrazonej w procentach (obr/sec predkości maksymalnej) z enkodera lewego \end{DoxyCompactList}\item 
+Q\+Vector$<$ double $>$ \hyperlink{class_data_ab2e63e74c9feb6090a6b7ac202c35535}{qv\+\_\+enc2}
+\begin{DoxyCompactList}\small\item\em wektor przechowujący wartości predkosci wyrażonej w procentach (obr/sec predkości maksymalnej) z enkodera prawego \end{DoxyCompactList}\item 
+Q\+Vector$<$ bool $>$ \hyperlink{class_data_af9e50ef903c8ee4a962493b3b0a2bf41}{qv\+\_\+foto1}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy odczyty czujnika linii pierwszego od lewej \end{DoxyCompactList}\item 
+Q\+Vector$<$ bool $>$ \hyperlink{class_data_aca198f3fc0cf108787779382ad6c91b8}{qv\+\_\+foto2}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy odczyty czujnika linii drugiego od lewej \end{DoxyCompactList}\item 
+Q\+Vector$<$ bool $>$ \hyperlink{class_data_a77d5041eb8b005cdd844231341431d26}{qv\+\_\+foto3}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy odczyty czujnika linii trzeciego od lewej \end{DoxyCompactList}\item 
+Q\+Vector$<$ bool $>$ \hyperlink{class_data_a75ed9bd7841452e381fc969add658c0f}{qv\+\_\+foto4}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy odczyty czujnika linii czwartego od lewej \end{DoxyCompactList}\item 
+Q\+Vector$<$ bool $>$ \hyperlink{class_data_a80728b543ea036049dffc151f7a08952}{qv\+\_\+foto5}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy odczyty czujnika linii piatego od lewej \end{DoxyCompactList}\item 
+Q\+Vector$<$ bool $>$ \hyperlink{class_data_a183992c23a4a5a4e2915da0345543a90}{qv\+\_\+foto6}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy odczyty czujnika linii szóstego od lewej \end{DoxyCompactList}\item 
+Q\+Vector$<$ bool $>$ \hyperlink{class_data_a9bf854a571f4670b99b4373fa9d239aa}{qv\+\_\+foto7}
+\begin{DoxyCompactList}\small\item\em wektor przechowujacy odczyty czujnika linii siódmego od lewej \end{DoxyCompactList}\item 
+Q\+Vector$<$ double $>$ \hyperlink{class_data_a52868c99e04a5ed6b61b2af204d39201}{time}
+\begin{DoxyCompactList}\small\item\em Wektor przechowujący dane o czasie w sec. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa przechowuje w wektorach zmienne typu double (dla enkoderów) i bool (dla czujników linii) odpowiadające poszczególnym czujnikom oraz wektor w sec. czas w któych wykonano dany pomiar. 
+
+Definition at line 15 of file data.\+hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Data@{Data}!Data@{Data}}
+\index{Data@{Data}!Data@{Data}}
+\subsubsection[{\texorpdfstring{Data()}{Data()}}]{\setlength{\rightskip}{0pt plus 5cm}Data\+::\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_af11f741cb7f587e2e495452a8905a22a}{}\label{class_data_af11f741cb7f587e2e495452a8905a22a}
+
+
+Definition at line 6 of file data.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Data@{Data}!add\+Data@{add\+Data}}
+\index{add\+Data@{add\+Data}!Data@{Data}}
+\subsubsection[{\texorpdfstring{add\+Data(const string \&bufor, const double \&t)}{addData(const string &bufor, const double &t)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Data\+::add\+Data (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{bufor, }
+\item[{const double \&}]{t}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_a2e824bd41b28fb23a8b6c90b285777ca}{}\label{class_data_a2e824bd41b28fb23a8b6c90b285777ca}
+
+
+Metoda wczytująca dane z bufora odczytanego z portu szeregowego do wektorów. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bufor} & -\/ referencja do odczytanego bufora danych odczytany z urzadzenia string z danymi \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zwraca true gdy dane zostały poprawnie dodane a false gdy się nie powiodło dodawanie 
+\end{DoxyReturn}
+
+
+Definition at line 16 of file data.\+cpp.
+
+\index{Data@{Data}!check\+Data@{check\+Data}}
+\index{check\+Data@{check\+Data}!Data@{Data}}
+\subsubsection[{\texorpdfstring{check\+Data(const string \&bufor)}{checkData(const string &bufor)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Data\+::check\+Data (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{bufor}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_ad9b327ea613fc268b8a669b6747aa16e}{}\label{class_data_ad9b327ea613fc268b8a669b6747aa16e}
+
+
+Metoda dokonuje sprawdzenia poprawnosci otrzymanej wiadomosci, długosc+suma kontrolna. 
+
+Suma kontrolna liczona jest jako suma wartości z wszystkich czujników modulo 256. Dodatkowo sprawdzana jest też długość stinga.
+
+R\+A\+M\+KA\+: string w postaci\+: x + (4$\ast$enc1 w hex) +(4$\ast$enc2 w hex)+ 7$\ast$foto(0 lub 1)+ sumakontrolna(2$\ast$hex)
+
+
+\begin{DoxyParams}{Parameters}
+{\em bufor} & -\/ referencja do stringa odczytannego z urzadzenia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zwraca true gdy dane poprawne lub false jesli niepoprawne 
+\end{DoxyReturn}
+
+
+Definition at line 77 of file data.\+cpp.
+
+\index{Data@{Data}!clear\+Data@{clear\+Data}}
+\index{clear\+Data@{clear\+Data}!Data@{Data}}
+\subsubsection[{\texorpdfstring{clear\+Data()}{clearData()}}]{\setlength{\rightskip}{0pt plus 5cm}void Data\+::clear\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_a644ad8f01a05ab5e995ebc613b2fcab9}{}\label{class_data_a644ad8f01a05ab5e995ebc613b2fcab9}
+
+
+Metoda usuwa dane z wszystkich wektorów. 
+
+
+
+Definition at line 117 of file data.\+cpp.
+
+\index{Data@{Data}!enc1@{enc1}}
+\index{enc1@{enc1}!Data@{Data}}
+\subsubsection[{\texorpdfstring{enc1()}{enc1()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$double$>$ Data\+::enc1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a852c405041140205ba503309222aa229}{}\label{class_data_a852c405041140205ba503309222aa229}
+
+
+Metoda zwracająca wektor z wartościami prędkości z encodera lewego. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+enc1 
+\end{DoxyReturn}
+
+
+Definition at line 69 of file data.\+hh.
+
+\index{Data@{Data}!enc2@{enc2}}
+\index{enc2@{enc2}!Data@{Data}}
+\subsubsection[{\texorpdfstring{enc2()}{enc2()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$double$>$ Data\+::enc2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_acd4ce60711460e5b4507044759c0809f}{}\label{class_data_acd4ce60711460e5b4507044759c0809f}
+
+
+Metoda zwracająca wektor z wartościami prędkości z encodera prawego. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+enc2 
+\end{DoxyReturn}
+
+
+Definition at line 74 of file data.\+hh.
+
+\index{Data@{Data}!foto1@{foto1}}
+\index{foto1@{foto1}!Data@{Data}}
+\subsubsection[{\texorpdfstring{foto1()}{foto1()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$bool$>$ Data\+::foto1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a0623960406bcd9b88cbc2272ec25e244}{}\label{class_data_a0623960406bcd9b88cbc2272ec25e244}
+
+
+Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 1. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+foto1 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file data.\+hh.
+
+\index{Data@{Data}!foto2@{foto2}}
+\index{foto2@{foto2}!Data@{Data}}
+\subsubsection[{\texorpdfstring{foto2()}{foto2()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$bool$>$ Data\+::foto2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a5a7a46eec7a6e0e4f0b002e9a1672ddb}{}\label{class_data_a5a7a46eec7a6e0e4f0b002e9a1672ddb}
+
+
+Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 2. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+foto2 
+\end{DoxyReturn}
+
+
+Definition at line 84 of file data.\+hh.
+
+\index{Data@{Data}!foto3@{foto3}}
+\index{foto3@{foto3}!Data@{Data}}
+\subsubsection[{\texorpdfstring{foto3()}{foto3()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$bool$>$ Data\+::foto3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a52a7d60591610ce2b56f8e4245df150b}{}\label{class_data_a52a7d60591610ce2b56f8e4245df150b}
+
+
+Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 3. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+foto3 
+\end{DoxyReturn}
+
+
+Definition at line 89 of file data.\+hh.
+
+\index{Data@{Data}!foto4@{foto4}}
+\index{foto4@{foto4}!Data@{Data}}
+\subsubsection[{\texorpdfstring{foto4()}{foto4()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$bool$>$ Data\+::foto4 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a3d816a143f8e994ffe69732c13d77c6c}{}\label{class_data_a3d816a143f8e994ffe69732c13d77c6c}
+
+
+Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 4. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+foto4 
+\end{DoxyReturn}
+
+
+Definition at line 94 of file data.\+hh.
+
+\index{Data@{Data}!foto5@{foto5}}
+\index{foto5@{foto5}!Data@{Data}}
+\subsubsection[{\texorpdfstring{foto5()}{foto5()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$bool$>$ Data\+::foto5 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a8618202cb647da7a124917ac95797e63}{}\label{class_data_a8618202cb647da7a124917ac95797e63}
+
+
+Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 5. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+foto5 
+\end{DoxyReturn}
+
+
+Definition at line 99 of file data.\+hh.
+
+\index{Data@{Data}!foto6@{foto6}}
+\index{foto6@{foto6}!Data@{Data}}
+\subsubsection[{\texorpdfstring{foto6()}{foto6()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$bool$>$ Data\+::foto6 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a1c5c32ab81b669a34b8aa494debe0ec9}{}\label{class_data_a1c5c32ab81b669a34b8aa494debe0ec9}
+
+
+Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 6. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+foto6 
+\end{DoxyReturn}
+
+
+Definition at line 104 of file data.\+hh.
+
+\index{Data@{Data}!foto7@{foto7}}
+\index{foto7@{foto7}!Data@{Data}}
+\subsubsection[{\texorpdfstring{foto7()}{foto7()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$bool$>$ Data\+::foto7 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_abf339451d0518296a832e91021cbeff6}{}\label{class_data_abf339451d0518296a832e91021cbeff6}
+
+
+Metoda zwracająca wektor z wektor z wartosciami z czujnika linii 7. 
+
+\begin{DoxyReturn}{Returns}
+wektor qv\+\_\+foto7 
+\end{DoxyReturn}
+
+
+Definition at line 109 of file data.\+hh.
+
+\index{Data@{Data}!timeval@{timeval}}
+\index{timeval@{timeval}!Data@{Data}}
+\subsubsection[{\texorpdfstring{timeval()}{timeval()}}]{\setlength{\rightskip}{0pt plus 5cm}const Q\+Vector$<$double$>$ Data\+::timeval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_data_a709a752b98cd4784c414b99e9ead0e8c}{}\label{class_data_a709a752b98cd4784c414b99e9ead0e8c}
+
+
+Metoda zwracająca wektor z chwilami czasowymi w których nastapiły pomiary. 
+
+\begin{DoxyReturn}{Returns}
+wektor time 
+\end{DoxyReturn}
+
+
+Definition at line 114 of file data.\+hh.
+
+
+
+\subsection{Member Data Documentation}
+\index{Data@{Data}!qv\+\_\+enc1@{qv\+\_\+enc1}}
+\index{qv\+\_\+enc1@{qv\+\_\+enc1}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+enc1}{qv_enc1}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$double$>$ Data\+::qv\+\_\+enc1\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_a7229f0da78654f3122d63a7b2bf993c8}{}\label{class_data_a7229f0da78654f3122d63a7b2bf993c8}
+
+
+wektor przechowujacy wartoscii predkosci wyrazonej w procentach (obr/sec predkości maksymalnej) z enkodera lewego 
+
+
+
+Definition at line 21 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+enc2@{qv\+\_\+enc2}}
+\index{qv\+\_\+enc2@{qv\+\_\+enc2}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+enc2}{qv_enc2}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$double$>$ Data\+::qv\+\_\+enc2\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_ab2e63e74c9feb6090a6b7ac202c35535}{}\label{class_data_ab2e63e74c9feb6090a6b7ac202c35535}
+
+
+wektor przechowujący wartości predkosci wyrażonej w procentach (obr/sec predkości maksymalnej) z enkodera prawego 
+
+
+
+Definition at line 25 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+foto1@{qv\+\_\+foto1}}
+\index{qv\+\_\+foto1@{qv\+\_\+foto1}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+foto1}{qv_foto1}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$bool$>$ Data\+::qv\+\_\+foto1\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_af9e50ef903c8ee4a962493b3b0a2bf41}{}\label{class_data_af9e50ef903c8ee4a962493b3b0a2bf41}
+
+
+wektor przechowujacy odczyty czujnika linii pierwszego od lewej 
+
+
+
+Definition at line 30 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+foto2@{qv\+\_\+foto2}}
+\index{qv\+\_\+foto2@{qv\+\_\+foto2}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+foto2}{qv_foto2}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$bool$>$ Data\+::qv\+\_\+foto2\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_aca198f3fc0cf108787779382ad6c91b8}{}\label{class_data_aca198f3fc0cf108787779382ad6c91b8}
+
+
+wektor przechowujacy odczyty czujnika linii drugiego od lewej 
+
+
+
+Definition at line 35 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+foto3@{qv\+\_\+foto3}}
+\index{qv\+\_\+foto3@{qv\+\_\+foto3}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+foto3}{qv_foto3}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$bool$>$ Data\+::qv\+\_\+foto3\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_a77d5041eb8b005cdd844231341431d26}{}\label{class_data_a77d5041eb8b005cdd844231341431d26}
+
+
+wektor przechowujacy odczyty czujnika linii trzeciego od lewej 
+
+
+
+Definition at line 39 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+foto4@{qv\+\_\+foto4}}
+\index{qv\+\_\+foto4@{qv\+\_\+foto4}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+foto4}{qv_foto4}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$bool$>$ Data\+::qv\+\_\+foto4\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_a75ed9bd7841452e381fc969add658c0f}{}\label{class_data_a75ed9bd7841452e381fc969add658c0f}
+
+
+wektor przechowujacy odczyty czujnika linii czwartego od lewej 
+
+
+
+Definition at line 43 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+foto5@{qv\+\_\+foto5}}
+\index{qv\+\_\+foto5@{qv\+\_\+foto5}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+foto5}{qv_foto5}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$bool$>$ Data\+::qv\+\_\+foto5\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_a80728b543ea036049dffc151f7a08952}{}\label{class_data_a80728b543ea036049dffc151f7a08952}
+
+
+wektor przechowujacy odczyty czujnika linii piatego od lewej 
+
+
+
+Definition at line 47 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+foto6@{qv\+\_\+foto6}}
+\index{qv\+\_\+foto6@{qv\+\_\+foto6}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+foto6}{qv_foto6}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$bool$>$ Data\+::qv\+\_\+foto6\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_a183992c23a4a5a4e2915da0345543a90}{}\label{class_data_a183992c23a4a5a4e2915da0345543a90}
+
+
+wektor przechowujacy odczyty czujnika linii szóstego od lewej 
+
+
+
+Definition at line 51 of file data.\+hh.
+
+\index{Data@{Data}!qv\+\_\+foto7@{qv\+\_\+foto7}}
+\index{qv\+\_\+foto7@{qv\+\_\+foto7}!Data@{Data}}
+\subsubsection[{\texorpdfstring{qv\+\_\+foto7}{qv_foto7}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$bool$>$ Data\+::qv\+\_\+foto7\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_a9bf854a571f4670b99b4373fa9d239aa}{}\label{class_data_a9bf854a571f4670b99b4373fa9d239aa}
+
+
+wektor przechowujacy odczyty czujnika linii siódmego od lewej 
+
+
+
+Definition at line 55 of file data.\+hh.
+
+\index{Data@{Data}!time@{time}}
+\index{time@{time}!Data@{Data}}
+\subsubsection[{\texorpdfstring{time}{time}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Vector$<$double$>$ Data\+::time\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_data_a52868c99e04a5ed6b61b2af204d39201}{}\label{class_data_a52868c99e04a5ed6b61b2af204d39201}
+
+
+Wektor przechowujący dane o czasie w sec. 
+
+
+
+Definition at line 59 of file data.\+hh.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ad/wds/prj/inc/\hyperlink{data_8hh}{data.\+hh}\item 
+/home/ad/wds/prj/src/\hyperlink{data_8cpp}{data.\+cpp}\end{DoxyCompactItemize}

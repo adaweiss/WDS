@@ -1,0 +1,15 @@
+digraph "QCPColorMapData::setKeySize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPColorMapData::setKeySize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPColorMapData::setSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_color_map_data.html#a0d9ff35c299d0478b682bfbcdd9c097e"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPColorMapData::keySize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_color_map_data.html#aa8d7811686fdfea964947715210c4af8"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPColorMapData::valueSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_color_map_data.html#ab880be6bc587f34e8d22fe77ef6b57e9"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPColorMapData::fill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_color_map_data.html#a350f783260eb9b5de5c7b5e0d5d3e3c2"];
+}

@@ -1,0 +1,37 @@
+digraph "QCPGraph::rescaleAxes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPGraph::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPGraph::rescaleKeyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_graph.html#a2108a729046b0ab6e0516afb249dab13"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAbstractPlottable\l::keyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_plottable.html#a72c7a09c22963f2c943f07112b311103"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxis::scaleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis.html#a8563e13407bc0616da7f7c84e02de170"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxis::range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis.html#ab1ea79a4f5ea4cf42620f8f51c477ac4"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPGraph::getKeyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_graph.html#afc246ce6201ff564ac440efaec52ab11"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAxis::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_axis.html#aebdfea5d44c3a0ad2b4700cd4d25b641"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPRange::validRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#ab38bd4841c77c7bb86c9eea0f142dcc0"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPRange::sanitizedForLog\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#aaf6a9046e78d91eeb8e89584fe46b034"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPRange::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#af914a7740269b0604d0827c634a878a9"];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPRange::sanitizedForLin\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_range.html#a1ff029704c29a75adbc1dc36cecaf44c"];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPGraph::rescaleValueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_graph.html#a2ba0e1df416486d7e74299ef8cf68bba"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPAbstractPlottable\l::valueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_plottable.html#a3106f9d34d330a6097a8ec5905e5b519"];
+  Node12 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPGraph::getValueRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_graph.html#a856e90b8ab6b31c344b14a863ab9e5d2"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

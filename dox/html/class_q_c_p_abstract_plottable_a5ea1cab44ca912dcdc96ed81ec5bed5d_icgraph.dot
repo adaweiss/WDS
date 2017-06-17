@@ -1,0 +1,22 @@
+digraph "QCPAbstractPlottable::distSqrToLine"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAbstractPlottable\l::distSqrToLine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPGraph::pointDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_graph.html#af93762a12a481a7edb4b3dd9e330dff1"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPGraph::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_graph.html#abc9ff375aabcf2d21cca33d6baf85772"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPCurve::pointDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_curve.html#acd7a68c6f268ce1ab845eaf69fc2c6a6"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPCurve::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_curve.html#a5af9949e725704811bbc81ecd5970b8e"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPFinancial::ohlcSelectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_financial.html#a9c7d79351e728a67bfb6821c1d1bd6c0"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPFinancial::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_financial.html#adf6cff00a55f775487d375fe4df5e95b"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPFinancial::candlestick\lSelectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_financial.html#abd0137244a17d5486a01ee442b083333"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

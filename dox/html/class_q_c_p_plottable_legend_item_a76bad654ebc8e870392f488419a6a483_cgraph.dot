@@ -1,0 +1,15 @@
+digraph "QCPPlottableLegendItem::minimumSizeHint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPlottableLegendItem\l::minimumSizeHint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPlottableLegendItem\l::getFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_plottable_legend_item.html#a8a85c8a25affb4895423d730164d61de"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLegend::iconSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_legend.html#a27dfb770b14adc0e8811bef8129780a5"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAbstractPlottable\l::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_plottable.html#a1affc1972938e4364a9325e4e4e4dcea"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLegend::iconTextPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_legend.html#a9d6d07042a284c4ba5f9e3cb5c9281ef"];
+}

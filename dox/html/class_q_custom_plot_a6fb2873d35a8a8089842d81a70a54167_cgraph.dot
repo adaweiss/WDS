@@ -1,0 +1,43 @@
+digraph "QCustomPlot::addGraph"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCustomPlot::addGraph",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayerable::parentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layerable.html#ab7e0e94461566093d36ffc0f5312b109"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::addPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#ab7ad9174f701f9c6f64e378df77927a6"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::plottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#adea38bdc660da9412ba69fb939031567"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAbstractPlottable\l::addToLegend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_plottable.html#a70f8cabfd808f7d5204b9f18c45c13f5"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLegend::hasItemWithPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_legend.html#a2eb1d24bdf5658e64962a656303fd61a"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLegend::addItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_legend.html#a3ab274de52d2951faea45a6d975e6b3f"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCustomPlot::graph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#a80c40ced2a74eefe9e92de1e82ba2274"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayerable::layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layerable.html#aea67e8c19145e70d68c286a36f6b8300"];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPLayerable::moveToLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layerable.html#af94484cfb7cbbddb7de522e9be71d9a4"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPLayer::parentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layer.html#a3958c9a938c2d05a7378c41484acee08"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPLayer::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layer.html#a96ebd1e436f3813938cb9cd4a59a60be"];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPLayer::removeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layer.html#ac2f64ac7761650582d968d86670ef362"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPLayer::addChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_layer.html#a57ce5e49364aa9122276d5df3b4a0ddc"];
+  Node3 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QCustomPlot::currentLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_custom_plot.html#af73057345656cbd1463454982d808b00"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="QCPAbstractPlottable\l::setName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_plottable.html#ab79c7ba76bc7fa89a4b3580e12149f1f"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="QCPAbstractPlottable\l::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_abstract_plottable.html#a1affc1972938e4364a9325e4e4e4dcea"];
+}

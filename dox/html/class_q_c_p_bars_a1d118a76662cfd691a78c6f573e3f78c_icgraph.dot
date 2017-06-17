@@ -1,0 +1,14 @@
+digraph "QCPBars::getBarPolygon"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPBars::getBarPolygon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPBars::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_bars.html#a0d37a9feb1d0baf73ce6e809db214445"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_bars.html#a42b894e34dac799f90ff3700706b31df"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPBars::getVisibleDataBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_c_p_bars.html#af73d2032be0a64d2692bb76b08c79ec2"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
